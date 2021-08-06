@@ -1,0 +1,141 @@
+﻿
+
+    body {
+        background-color: skyblue;
+    }
+
+
+    #header {
+        background-color: mediumpurple;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: underline;
+        color: maroon;
+        text-align: center;
+        padding: 5px;
+        margin: 5px;
+        border: dotted;
+    }
+
+    #nav {
+        background-color: khaki;
+        color: mediumpurple;
+        border: dashed;
+        float: left;
+        padding: 5px;
+        height: 400px;
+        width: 100px;
+    }
+
+    #h2 {
+        text-align: center;
+    }
+
+    a:link {
+        color: darkmagenta
+    }
+
+    a:visited {
+        color: hotpink
+    }
+
+    a:hover {
+        color: rebeccapurple
+    }
+
+    a:active {
+        color: blueviolet;
+    }
+
+    #text {
+        width: 1150px;
+        margin: 10px auto;
+        padding: 20px;
+        font-style: italic;
+        text-indent: 2em;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    }
+
+    img {
+        margin: 15px;
+        float: right;
+        border: 5px solid;
+        color: darkslategrey;
+    }
+
+    #footer {
+        background-color: lightsteelblue;
+        color: maroon;
+        text-align: left;
+        padding: 10px;
+        clear: both;
+    }
+
+@media screen and (max-width: 600px) {
+    p{
+     width:   auto;
+    }
+
+      #header {
+        background-color: mediumpurple;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: underline;
+        color: maroon;
+        text-align: center;
+        padding: 0;
+        margin: auto;
+        border: dotted;
+    }
+
+    #nav {
+        background-color: khaki;
+        color: mediumpurple;
+        border: dashed;
+        float: none;
+        padding: 0px;
+        height: auto;
+        width: auto;
+    }
+
+    #h2 {
+        text-align: center;
+    }
+
+    a:link {
+        color: darkmagenta
+    }
+
+    a:visited {
+        color: hotpink
+    }
+
+    a:hover {
+        color: rebeccapurple
+    }
+
+    a:active {
+        color: blueviolet;
+    }
+
+    #text {
+        width: auto;
+        margin:  auto;
+        padding: 0px;
+        font-style: italic;
+        
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    }
+
+    img {
+        margin: auto;
+        float: none;
+        border: 5px solid;
+        color: darkslategrey;
+    }
+
+    #footer {
+        background-color: lightsteelblue;
+        color: maroon;
+               padding: 0;
+        clear: both;
+    }
+}

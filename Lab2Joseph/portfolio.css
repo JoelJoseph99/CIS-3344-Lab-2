@@ -1,0 +1,144 @@
+﻿body {
+    background-color: darkslategray;
+}
+
+#header {
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-style:italic;
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: dotted;
+}
+
+#nav {
+    background-color: navajowhite;
+    color: black;
+    border: dashed;
+    float: left;
+    padding: 5px;
+    height: 500px;
+    width: 100px;
+}
+
+#h2 {
+    text-align: center;
+    color:aliceblue;
+    text-decoration:underline;
+    font-style:italic;
+}
+
+a:link {
+    color: darkviolet
+}
+
+a:visited {
+    color: darkblue
+}
+
+a:hover {
+    color: firebrick
+}
+
+a:active {
+    color: blueviolet;
+}
+
+.text {
+    width: 1150px;
+    margin: 10px auto;
+    padding: 20px;
+    text-indent: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+img {
+    margin:9.5em;
+    float:right;
+    border: 5px solid;
+    color: black;
+
+}
+
+#footer {
+    background-color: lightsteelblue;
+    color: maroon;
+    text-align: left;
+    padding: 10px;
+    clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+    #header {
+        background-color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        text-decoration: underline;
+        color: black;
+        padding: 0;
+        margin: auto;
+        border: dotted;
+    }
+
+    #nav {
+        background-color: navajowhite;
+        color: black;
+        border: dashed;
+        float: none;
+        padding: 0;
+        height: auto;
+        width: auto;
+    }
+
+    #h2 {
+        text-align: center;
+        color: aliceblue;
+        text-decoration: underline;
+        font-style: italic;
+    }
+
+    a:link {
+        color: darkviolet
+    }
+
+    a:visited {
+        color: darkblue
+    }
+
+    a:hover {
+        color: firebrick
+    }
+
+    a:active {
+        color: blueviolet;
+    }
+
+    .text {
+        width: auto;
+        margin: auto;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+
+    img {
+        margin: auto;
+        float: none;
+        border: 5px solid;
+        color: black;
+    }
+
+    #footer {
+        background-color: lightsteelblue;
+        color: maroon;
+        padding: 0;
+        clear: both;
+    }
+}

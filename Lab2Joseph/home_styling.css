@@ -1,0 +1,320 @@
+﻿/* MOBILE-FIRST - this section contains styles that are applied to mobile devices.
+               It also contains styles that are shared between all screen sizes. */
+body {
+    /* Removing margin and padding from the body */
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: darkslategray;
+}
+
+
+@font-face {
+    font-family: 'Assassin$';
+    src: url('fonts/Assassin$.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quicksand_Bold_Oblique';
+    src: url('fonts/Quicksand_Bold_Oblique.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Quicksand_Book_Oblique';
+    src: url('fonts/Quicksand_Book_Oblique.otf') format('opentype');
+}
+/* The container class is used to wrap elements and display them using the entire  width of the screen.*/
+.container {
+    width: 100%;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+}
+
+.imageContainer {
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 4%;
+    padding-bottom: 24px;
+    
+    box-sizing: border-box;
+}
+
+
+table, td, tr {
+    display: block;
+    line-height: 40px;
+}
+
+
+
+
+tr {
+    padding: 50px;
+}
+
+
+img {
+    width: 100%;
+    margin: 1%;
+    margin-bottom: 8px;
+    box-shadow: black 0px 0px 5px;
+    box-sizing: border-box;
+}
+
+
+iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    border: 2px solid gray;
+}
+
+.nav {
+    width: 100%;
+    z-index: 30;
+}
+
+    .nav ul {
+        width: 100%;
+        list-style-type: none;
+        margin-top: 0;
+        overflow: hidden;
+        background-color: white;
+        text-decoration: solid;
+    }
+
+
+/* Styling for the virtual page sections */
+.section {
+    padding: 25px;
+    color: white;
+    text-align: center;
+}
+
+#title {
+    background-image: url(Lab2Images/acwelcome2.jpg);
+    font-family: 'Assassin$';
+}
+
+.h1title {
+    font-size: 95px;
+}
+
+
+#AboutAC {
+    text-align: center;
+    background-image: url(Lab2Images/acpic1.jpg);
+    color: crimson;
+    font-family: Bahnschrift;
+    text-indent: 2em;
+}
+
+.h1 {
+    text-align: left;
+    font-size: 45px;
+    font-family: 'Assassin$';
+}
+
+#V2ACREV {
+    background-image: url(Lab2Images/ac1masyaf.png);
+    color: black;
+    font-size: 18px;
+    font-family: 'Quicksand_Bold_Oblique';
+}
+
+#V2AC3 {
+    background-image: url(Lab2Images/ac3background2.jpg);
+    color: white;
+    font-size: 18px;
+    font-family: 'Quicksand_Bold_Oblique';
+}
+
+#V2ACU {
+    color: black;
+    background-image: url(Lab2Images/ACUbackground.jpg);
+    font-family: 'Quicksand_Bold_Oblique';
+    font-size: 18px;
+}
+
+#V2ACSYNDICATE {
+    background-image: url(Lab2Images/acsyndicate.jpg);
+    color: black;
+    font-family: 'Quicksand_Bold_Oblique';
+    font-size: 18px;
+}
+
+#ACForm {
+    background-image: url(Lab2Images/AC-Valhalla-Eivor.png);
+    font-family: 'Assassin$';
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.img2 {
+    position: static;
+    width: 350px;
+    float: right;
+}
+
+.h1v2 {
+    text-align: left;
+    font-family: 'Assassin$';
+    font-size: 35px;
+    color: red;
+}
+
+
+#AssassinPhoto {
+    background-color: dimgray;
+    color: darkgoldenrod;
+    font-family: 'Assassin$';
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 50px;
+    color: white;
+}
+
+
+
+footer {
+    text-align: left;
+    background-color: black;
+    padding: 2px;
+}
+
+.nav ul li {
+    float: left;
+    width: 100%;
+    font-family: 'Assassin$';
+}
+
+
+    .nav ul li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 15px;
+    }
+
+        .nav ul li a:hover {
+            background-color: red;
+            color: floralwhite;
+        }
+
+        .nav ul li a.active {
+            background-color: deepskyblue;
+            color: blue;
+        }
+
+td {
+    display: inline;
+    padding: 20px;
+}
+
+table {
+    width: 50%;
+    margin: auto;
+}
+
+textarea {
+    width: 85%;
+}
+
+.factbox {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 5px 10px darkslategray;
+}
+/* DESKTOP - Styling for larger screens */
+@media screen and (min-width: 600px) {
+
+
+
+    .container {
+        margin: auto; 
+        max-width: 1000px;
+    }
+
+    .p {
+        font-style: italic;
+        text-align: center;
+    }
+
+    .ul {
+        list-style-type: upper-roman;
+    }
+
+    .factbox {
+        margin-right: 0;
+    }
+
+    .leftside {
+        font-style: oblique;
+        float: left;
+        width: 49%;
+        margin-right: 1%;
+    }
+
+    .img {
+        position: static;
+        width: 425px;
+        top: 3em;
+        bottom: 6em;
+        right: 2em;
+        float: right;
+    }
+
+
+    .rightside {
+        float: right;
+        width: 49%;
+        margin-left: 1%;
+        text-align: center;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+
+
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0em;
+    }
+
+        .nav ul li {
+            float: left;
+            width: 20%;
+            font-size: 18px;
+        }
+
+
+    td {
+        display: inline;
+        padding: 15px;
+    }
+
+    table {
+        width: 50%;
+        margin: auto;
+    }
+
+
+
+    .imageContainer {
+        max-width: 30%;
+        float: left;
+        height: 575px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+}

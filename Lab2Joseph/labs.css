@@ -1,0 +1,172 @@
+﻿body {
+    background-color: lightgray; 
+}
+
+#header {
+    background-color: darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: dashed;
+    font-style:italic;
+    color: orange;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: dashed;
+}
+
+#nav {
+    background-color: darkred;
+    color: darkblue;
+    border: dashed;
+    float: left;
+    padding: 5px;
+    height: 500px;
+    width: 100px;
+}
+
+#h2 {
+    text-align: center;
+    text-decoration: dotted;
+    font-style:italic;
+}
+
+a:link {
+    color: purple;
+}
+
+a:visited {
+    color: orangered;
+}
+
+a:hover {
+    color: rosybrown;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+#text {
+    width: 1155px;
+    margin: 10px auto;
+    padding: 25px;
+    float:right;
+    font-size: 18px;
+    font-family: Calibri;
+    color: maroon;
+    text-indent: 3em;
+    font-style:oblique;
+
+}
+
+
+img {
+    margin: 15px;
+    float: right;
+    border: 5px solid;
+    color: white;
+}
+
+#footer {
+    background-color: lightsteelblue;
+    color: maroon;
+    text-align: left;
+    padding: 10px;
+    clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+    p {
+        width: auto;
+    }
+
+    b {
+        width: auto;
+    }
+    #header {
+        background-color: darkred;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: dashed;
+        font-style: italic;
+        color: orange;
+        text-align: center;
+        padding: 0;
+        margin: auto;
+        border: dashed;
+    }
+
+    #nav {
+        background-color: darkred;
+        color: darkblue;
+        border: dashed;
+        float: none;
+        padding: 0;
+        height: auto;
+        width: auto;
+    }
+
+    #h2 {
+        text-align: center;
+        text-decoration: dotted;
+        font-style: italic;
+    }
+
+    a:link {
+        color: purple;
+    }
+
+    a:visited {
+        color: orangered;
+    }
+
+    a:hover {
+        color: rosybrown;
+    }
+
+    a:active {
+        color: blueviolet;
+    }
+
+    #text {
+        width: auto;
+        margin:  auto;
+        padding: 0;
+        float: right;
+        font-size: 18px;
+        font-family: Calibri;
+        color: maroon;
+        font-style: oblique;
+    }
+
+
+    img {
+        margin: auto;
+        float: none;
+        border: 5px solid;
+        color: white;
+    }
+
+    #footer {
+        background-color: lightsteelblue;
+        color: maroon;
+        
+        padding: 0;
+        clear: both;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
